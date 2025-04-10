@@ -9,6 +9,8 @@ public class MockTokenKeychainRepository: TokenKeychainRepository {
     public var setAccessTokenResult: Result<Void, Error> = .success(())
     public var setRefreshTokenResult: Result<Void, Error> = .success(())
 
+    public init() {}
+
     public func getAccessToken(userId: String) async throws -> String {
         try getAccessTokenResult.get()
     }
@@ -30,6 +32,4 @@ public class MockTokenKeychainRepository: TokenKeychainRepository {
 //    func formattedKey(for item: KeychainItem) -> String {
 //        String(format: storageKeyFormat, appId, item.unformattedKey)
 //    }
-
-    public init() {}
 }
