@@ -138,13 +138,6 @@ protocol KeychainRepository: AnyObject {
     ///
     func getDeviceKey(userId: String) async throws -> String?
 
-    /// Gets the stored refresh token for a user from the keychain.
-    ///
-    /// - Parameter userId: The user ID associated with the stored refresh token.
-    /// - Returns: The user's refresh token.
-    ///
-    func getRefreshToken(userId: String) async throws -> String
-
     /// Gets the pending admin login request for a user ID.
     ///
     /// - Parameter userId: The user ID associated with the pending admin login request.
@@ -220,7 +213,7 @@ extension KeychainRepository {
 
 // MARK: - DefaultKeychainRepository
 
-class DefaultKeychainRepository: KeychainRepository {
+class DefaultKeychainRepository: KeychainRepository, TokenKeychainRepository {
     // MARK: Properties
 
     /// A service used to provide unique app ids.

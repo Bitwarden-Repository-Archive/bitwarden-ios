@@ -1,3 +1,5 @@
+import BitwardenKit
+
 /// A protocol for a `TokenService` which manages accessing and updating the active account's tokens.
 ///
 protocol TokenService: AnyObject {
@@ -36,7 +38,7 @@ actor DefaultTokenService: TokenService {
     // MARK: Properties
 
     /// The repository used to manages keychain items.
-    let keychainRepository: KeychainRepository
+    let keychainRepository: TokenKeychainRepository
 
     /// The service that manages the account state.
     let stateService: StateService
@@ -50,7 +52,7 @@ actor DefaultTokenService: TokenService {
     ///   - stateService: The service that manages the account state.
     ///
     init(
-        keychainRepository: KeychainRepository,
+        keychainRepository: TokenKeychainRepository,
         stateService: StateService
     ) {
         self.keychainRepository = keychainRepository
