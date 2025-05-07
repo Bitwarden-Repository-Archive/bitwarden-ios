@@ -1,0 +1,6 @@
+-Added support for using email aliases via SimpleLogin and AnonAddy on self-hosted instances.
+-Bug fixes in several areas, including: 
+-Resolved issues with URI launch buttons missing for specific TLDs, 
+-Errors when editing shared organization items 
+-Icon fixes
+-And more!

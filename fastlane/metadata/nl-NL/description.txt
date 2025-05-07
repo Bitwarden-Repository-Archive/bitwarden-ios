@@ -1,0 +1,7 @@
+bitwarden is de makkelijkste en veiligste manier om al uw logins en wachtwoorden op te slaan en ze te synchroniseren tussen al uw apparaten.
+
+Diefstal van wachtwoorden is een ernstig probleem. De websites en apps die u gebruikt worden dagelijks aangevallen. Beveiligingslekken komen voor en wachtwoorden worden gestolen. Als u dezelfde wachtwoorden gebruikt voor meerdere apps en websites, kunnen hackers makkelijk toegang krijgen tot uw e-mail, bankgegevens en andere belangrijke accounts.
+
+Beveiligingsexperts bevelen aan dat u een verschillend, willekeurig gegenereerd wachtwoord gebruikt voor ieder account. Maar hoe beheer je al die wachtwoorden? bitwarden maakt het voor u gemakkelijk om ze te genereren, op te slaan en te gebruiken.
+
+bitwarden slaat al uw logins op in een versleutelde kluis die gesynchroniseerd wordt tussen al uw apparaten. Omdat het volledig versleuteld is voor het zelfs maar het internet opgaat, heeft alleen u toegang tot uw gegevens. Zelfs het bitwarden-team kan niets uitlezen, zelfs al zouden we dat willen. Uw gegevens zijn beveiligd met AES-256 bit encryptie, salted hashing en PBKDF2 SHA-256.

@@ -1,0 +1,1 @@
+bitwarden,8bit,heslo,přihlašovací údaje,bezplatný správce hesel,správce hesel,správce přihlášení

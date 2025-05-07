@@ -1,0 +1,7 @@
+Bitwarden je najlakši i najsigurniji način pohranjivanja svih Vaših prijava i lozinki, dok su iste sinkronizirane među svim Vašim uređajima. Proširenje aplikacije Bitwarden omogućuje Vam brzo prijavljivanje na bilo koju web stranicu putem Safaria ili Chromea i podržava stotine drugih popularnih aplikacija.
+
+Krađa lozinki ozbiljan je problem. Web-lokacije i aplikacije koje upotrebljavate svakodnevno su napadnute. Pojavljuju se sigurnosne povrede, a Vaše lozinke su ukradene. Ako ponovno upotrebljavate iste zaporke u aplikacijama i web-lokacijama, hakeri mogu lako pristupiti Vašoj e-pošti, banci i drugim važnim računima.
+
+Sigurnosni stručnjaci preporučuju da koristite različitu, nasumično generiranu lozinku za svaki račun koji stvorite. Ali kako upravljati svim tim lozinkama? Bitwarden vam olakšava stvaranje, pohranu i pristup lozinkama.
+
+Bitwarden pohranjuje sve Vaše prijave u šifrirani trezor koji se sinkronizira na svim Vašim uređajima. Budući da je potpuno šifriran prije nego ikada napusti uređaj, samo Vi imate pristup podacima. Čak ni tim u Bitwardenu ne može vidjeti Vaše podatke. Vaši su podaci zapečaćeni s AES-256 bitnim šifriranjem, salt hashom i PBKDF2 SHA-256.

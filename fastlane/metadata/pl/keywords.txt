@@ -1,0 +1,1 @@
+bit warden,8bit,hasło,darmowy menadżer haseł,menedżer haseł,menedżer logowania
